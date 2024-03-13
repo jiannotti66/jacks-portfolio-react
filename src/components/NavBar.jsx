@@ -1,9 +1,17 @@
 import React from 'react';
+import me from '../assets/me.jpg'
 
 const NavBar = () => {
   return (
-    <div className='text-red-500 text-center text-3xl font-bold font-serif'>
-        Jacks Portfolio!
+    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+      <img src={me} className='rounded-full h-20 w-20 object-cover m-10 max-h-12'></img>
+      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>Jacks Portfolio</h1>
+      <ul className='flex'>
+        <ul className='p-4'>Home</ul>
+        <ul className='p-4'>Resources</ul>
+        <ul className='p-4'>About</ul>
+        <ul className='p-4'>Contact</ul>
+      </ul>
     </div>
   );
 }
