@@ -1,14 +1,12 @@
-// App.js
-import React from "react";
-import NavBar from "./components/NavBar";
-import "./index.css"; // Your custom CSS
-import "tailwindcss/tailwind.css"; // Import compiled Tailwind CSS
-import Hero from "./components/Hero";
+import React from 'react';
+import Hero from './components/Hero.jsx';
+import Navbar from './components/NavBar.jsx';
+
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <Navbar />
       <Hero />
     </div>
   );
