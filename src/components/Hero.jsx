@@ -8,16 +8,18 @@ const Hero = () => {
         <p className='text-[#00df9a] font-bold p-2 md:text-5xl'>
           Hello! Im Jack
         </p>
-        <h1 className='md:text-4xl text-xl font-bold text-gray-500'>
+        <h1 className='md:text-4xl mt-6 mt- text-xl font-bold text-gray-500'>
           Im a college student from chicago
         </h1> 
-        <div class="w-full">
+        <div class="w-fit">
           {/* try to make this wider for the text if possible */}
-          <p class='md:text-4xl sm:text-6xl text-4xl font-bold md:py-10'>I am 18 years old with 4 years of computer science experience. Currently, I'm focused on exploring within the cybersecurity field. I am open to any work, research, or internship opportunities within my field.</p>
+          <p class='text-center md:text-4xl sm:text-4xl text-6x2 font-bold md:py-8'>I am 18 years old with 4 years of computer science experience. Currently, I'm focused on exploring within the cybersecurity field. I am open to any work, research, or internship opportunities within my field.</p>
         </div>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
+        <button style={{cursor:'pointer'}} smooth={true} duration={500} className='w-3/5 mx-auto text-white group border-2 px-6 py-3 my-2 flex items-center justify-center hover:bg-[#00df9a] hover:border-[#4a4a4a] hover: duration-300'>View Work</button>
+
       </div>
     </div>
+  
 
   );
 };
