@@ -13,7 +13,7 @@ const Hero = () => {
         </h1> 
         <div class="w-full">
           {/* try to make this wider for the text if possible */}
-    <p class='md:text-4xl sm:text-6xl text-4xl font-bold md:py-10'>I am 18 years old with 4 years of computer science experience. Currently, I'm focused on exploring within the cybersecurity field. I am open to any work, research, or internship opportunities within my field.</p>
+          <p class='md:text-4xl sm:text-6xl text-4xl font-bold md:py-10'>I am 18 years old with 4 years of computer science experience. Currently, I'm focused on exploring within the cybersecurity field. I am open to any work, research, or internship opportunities within my field.</p>
         </div>
         <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get Started</button>
       </div>
