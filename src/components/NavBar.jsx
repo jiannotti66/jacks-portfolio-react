@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='fixed top-0 left-0 w-full bg-[#000300] z-50 h-32'>
+    <div className='fixed top-0 left-0 w-full bg-[#111111] z-50 h-32'>
       <div className='flex justify-between items-center h-full max-w-[1240px] mx-auto px-4 text-white'>
         <img src={Me} className='rounded-full h-20 w-20 object-cover mr-7'></img>
         <h1 className='text-6xl font-bold text-[#00df9a]'>Jacks Portfolio</h1>
