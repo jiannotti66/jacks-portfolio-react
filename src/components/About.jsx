@@ -1,8 +1,7 @@
-// About.js
-
 import React from 'react';
 
 const About = () => {
+
     return (
         <div id="about" className='min-h-screen bg-black pt-60'>
             <div className='flex flex-col justify-center items-center text-gray-300 w-full p-10 max-h-fit h-full'>

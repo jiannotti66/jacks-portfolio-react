@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import { Typed } from 'react-typed'; // Correct import
 
 const Hero = () => {
   const aboutRef = useRef(null);
