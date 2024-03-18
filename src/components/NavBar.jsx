@@ -3,6 +3,8 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Me from "../assets/me.jpg";
 import { Link } from "react-scroll";
 
+//add leetcode, github etc on the far left
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -46,7 +48,16 @@ const Navbar = () => {
           >
             Skills
           </Link>
-          <li className="p-4 hover:border-b cursor-pointer">Work</li>
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="work"
+            smooth={true}
+            duration={500}
+          >
+            Work
+          </Link>
+          
+          
           <li className="p-4 hover:border-b cursor-pointer">Experience</li>
           <li className="p-4 ml-12 hover:border-b cursor-pointer">Contact</li>
         </ul>
