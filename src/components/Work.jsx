@@ -23,7 +23,7 @@ const Work = () => {
   return (
     <div id='work' className="bg-black min-h-screen w-full py-10 md:py-16 lg:py-20 px-6 md:px-10 lg:px-16 overflow-y-auto mt-10 md:mt-20 lg:mt-24">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl text-[#00df9a] md:text-4xl lg:text-5xl font-bold text-center mb-10">Work Experience</h2>
+        <h2 className="text-3xl text-[#00df9a] md:text-4xl lg:text-5xl font-bold text-center mb-10">Work Experience:</h2>
         {workExperiences.map((experience, index) => (
           <div key={index} className="bg-[#141414] rounded-lg shadow-md p-6 md:p-8 mb-6 flex items-center">
             <div className="mr-4">
