@@ -56,9 +56,16 @@ const Navbar = () => {
           >
             Work
           </Link>
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="experience"
+            smooth={true}
+            duration={500}
+          >
+            Experience
+          </Link>
           
-          
-          <li className="p-4 hover:border-b cursor-pointer">Experience</li>
+        
           <li className="p-4 ml-12 hover:border-b cursor-pointer">Contact</li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">

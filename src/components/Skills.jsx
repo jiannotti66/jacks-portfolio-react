@@ -9,37 +9,37 @@ const Skills = () => {
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Programming Languages</h3>
             <ul className="list-disc list-inside">
-              <li>JavaScript (React)</li>
-              <li>Python</li>
-              <li>Java</li>
-              <li>Swift</li>
+              <li>skill)</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Frameworks & Libraries</h3>
             <ul className="list-disc list-inside">
-              <li>React.js</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>Bootstrap</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Tools & Technologies</h3>
             <ul className="list-disc list-inside">
-              <li>Git</li>
-              <li>VS Code</li>
-              <li>SQL</li>
-              <li>RESTful APIs</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Additional Skills</h3>
             <ul className="list-disc list-inside">
-              <li>Problem Solving</li>
-              <li>Data Structures</li>
-              <li>Algorithm Design</li>
-              <li>Agile Methodologies</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
+              <li>skill</li>
             </ul>
           </div>
         </div>
