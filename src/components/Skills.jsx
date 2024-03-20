@@ -9,19 +9,19 @@ const Skills = () => {
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Programming Languages</h3>
             <ul className="list-disc list-inside">
-              <li>skill)</li>
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>HTML</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Frameworks & Libraries</h3>
             <ul className="list-disc list-inside">
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
+              <li>React.js</li>
+              <li>Node</li>
+              <li>OpenCV</li>
+              {/* add one more. */}
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
