@@ -1,23 +1,33 @@
 import React from 'react';
+import traderjoes from '../assets/traderjoes.jpeg'
+import portillos from '../assets/portillos.jpeg'
+import target from '../assets/target.jpeg'
 
 const Work = () => {
-  // Dummy data representing work experiences
+
   const workExperiences = [
     {
-      company: "ABC Corp",
-      position: "Software Engineer",
-      duration: "Jan 2020 - Present",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget libero ac odio vehicula cursus.",
-      imageSrc: "/path/to/image1.jpg" // change images here
+      company: "Trader Joes",
+      position: "Crew/Bagger" ,
+      duration: "Janurary 2023 - Present",
+      description: " - Welcomed customers as well as providing assistance and bagging the grocieries. Cleaning up the store and restocking shelves.",
+      imageSrc: traderjoes 
     },
     {
-      company: "XYZ Tech",
-      position: "Web Developer",
-      duration: "Jun 2018 - Dec 2019",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget libero ac odio vehicula cursus.",
-      imageSrc: "/path/to/image2.jpg" // change images here
+      company: "Target",
+      position: "Team Member" ,
+      duration: "November 2022 - Janurary 2023",
+      description: " - Carried out orders for drive up, stocked shelves, provided assistance for customers at guest service desk, worked at register.",
+      imageSrc: target 
     },
-    // add more later
+    {
+      company: "Portillos",
+      position: "Team Member",
+      duration: "April 2022 - August 2022",
+      description: " - Prepared, wrapped and carried out hot dogs and orders containing hotdogs for in-store and drive through. Helped customers with problems as well as greeting customers",
+      imageSrc: portillos 
+    },
+
   ];
 
   return (
@@ -31,8 +41,8 @@ const Work = () => {
             </div>
             <div>
               <h3 className="text-xl text-[#00df9a] md:text-2xl font-semibold mb-2">{experience.company}</h3>
-              <p className="text-white text-sm md:text-base mb-2">{experience.position}</p>
-              <p className="text-white text-sm md:text-base mb-2">{experience.duration}</p>
+              <p className="text-white font-bold text-sm md:text-base mb-2">{experience.position}</p>
+              <p className="text-white italic text-sm md:text-base mb-2">{experience.duration}</p>
               <p className="text-white md:text-base">{experience.description}</p>
             </div>
           </div>
