@@ -20,7 +20,7 @@ const Hero = () => {
         </h1> 
         <div className="w-fit">
           {/* try to make this wider for the text if possible */}
-          <p className='text-center md:text-4xl sm:text-4xl text-6x2 font-bold md:py-8'>I am 18 years old with 2 years of computer science experience. Currently, I'm focused on exploring within the software engineering field. I am open to any work, research, or internship opportunities within my field.</p>
+          <p className='text-center md:text-4xl sm:text-4xl text-6x2 font-bold md:py-8'>I am 18 years old with 3 years of computer science experience. Currently, I'm focused on exploring within the software engineering field. I am open to any work, research, or internship opportunities within my field.</p>
         </div>
         <button 
           style={{ cursor: 'pointer' }} 

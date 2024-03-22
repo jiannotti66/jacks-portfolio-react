@@ -22,7 +22,7 @@ const Work = () => {
     },
     {
       company: "Portillos",
-      position: "Team Member",
+      position: "Cook",
       duration: "April 2022 - August 2022",
       description: " - Prepared, wrapped and carried out hot dogs and orders containing hotdogs for in-store and drive through. Helped customers with problems as well as greeting customers",
       imageSrc: portillos 
