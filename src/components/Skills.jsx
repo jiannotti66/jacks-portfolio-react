@@ -21,25 +21,26 @@ const Skills = () => {
               <li>React.js</li>
               <li>Node</li>
               <li>OpenCV</li>
+              <li>Git</li>
               {/* add one more. */}
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Tools & Technologies</h3>
             <ul className="list-disc list-inside">
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
+              <li>Visual Studio Code</li>
+              <li>IntelliJ</li>
+              <li>XCode</li>
+              <li>PyCharm</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
             <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Additional Skills</h3>
             <ul className="list-disc list-inside">
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
-              <li>skill</li>
+              <li>Communication</li>
+              <li>Collaboration</li>
+              <li>Adaptability</li>
+              <li>Debugging</li>
             </ul>
           </div>
         </div>
