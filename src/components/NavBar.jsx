@@ -64,9 +64,14 @@ const Navbar = () => {
           >
             Experience
           </Link>
-          
-        
-          <li className="p-4 ml-12 hover:border-b cursor-pointer">Contact</li>
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
           {nav ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
