@@ -53,6 +53,10 @@ const Contact = () => {
       method="POST"
       className="flex flex-col items-center justify-center h-full"
     >
+      <p className="text-4xl font-bold inline border-b-4 text-[#00df9a] border-gray mb-10">
+              Contact
+            </p>
+      <h1 className="text-gray-400 font-bold mb-10">Submit this form to reach out.</h1>
       <div id="contact" className="pt-0 mb-3 items-center flex">
         <input
           type="text"
@@ -75,7 +79,7 @@ const Contact = () => {
         <textarea
           placeholder="Your message"
           name="message"
-          className="focus:outline-none w-80 focus:ring relative w-full max-w-80 px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
+          className="focus:outline-none w-96 focus:ring relative max-w-80 px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
           required
         />
       </div>

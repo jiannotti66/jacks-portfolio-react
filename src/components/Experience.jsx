@@ -15,7 +15,6 @@ const Experience = () => {
           </div>
           <div className="grid h-150 items-center sm:grid-cols-2 md:grid-cols-3 gap-3">
             <div
-             
               className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div"
               style={{ cursor: 'pointer' }} 
             >
