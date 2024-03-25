@@ -20,7 +20,6 @@ const Skills = () => {
             <ul className="list-disc list-inside">
               <li>React.js</li>
               <li>Node</li>
-              <li>OpenCV</li>
               <li>Git</li>
               {/* add one more. */}
             </ul>

@@ -2,19 +2,64 @@ import React from 'react';
 
 const Experience = () => {
   return (
-    <div id='experience' className="relative w-48 h-48 bg-gray-200 rounded-lg overflow-hidden group">
-      <div className="absolute inset-0 bg-black opacity-50 transition-opacity duration-300 group-hover:opacity-0"></div>
-      <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-300 opacity-0 group-hover:opacity-100">
-        <p className="text-white text-lg">Hover to reveal</p>
-      </div>
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="text-center">
-          <h3 className="text-2xl font-bold text-white mb-2">Title</h3>
-          <p className="text-white">Content here</p>
+      <div name="experience" className="min-h-screen bg-[#000000] pt-60 pt-48"> {/* Increase padding to pt-48 */}
+  
+        <div className="max-w-[1000px] text-gray-300 max-h-fit mx-auto p-4 flex flex-col justify-center">
+          <div className="pb-8">
+            <p className="text-4xl font-bold inline border-b-4 text-[#00df9a] border-gray">
+              My Experience
+            </p>
+            <p className="py-6 text-xl">
+              Explore a handful of my diverse experiences.
+            </p>
+          </div>
+          <div className="grid h-150 items-center sm:grid-cols-2 md:grid-cols-3 gap-3">
+            <div
+             
+              className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div"
+              style={{ cursor: 'pointer' }} 
+            >
+              {/* Hover Effects */}
+              <div className="opacity-0 text-center group-hover:opacity-100">
+                <span className="text-l text-white tracking-wider">
+                  Currently, I have work experience in the Retail, Education and Sports industries with a computer science focused education background.
+                </span>
+              </div>
+            </div>
+            <div
+          
+              className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div"
+              style={{ cursor: 'pointer' }} 
+
+            >
+              {/* Hover Effects */}
+              <div className="opacity-0 text-center group-hover:opacity-100 ">
+                <span className="text-l text-white tracking-wider">
+                  <br></br> High School Extracuriculars: <br></br>Finance Club,<br></br>{" "}
+                  Hack Club, CompSci Kids, Math Team, Italian Heritage Club
+                </span>
+              </div>
+            </div>
+            <div
+          
+              className="shadow-lg rounded-lg shadow-[#040c16] group bg-[#141414] container rounder-md flex justify-center items-center mx-auto content-div"
+              style={{ cursor: 'pointer' }} 
+
+            >
+              {/* Hover Effects */}
+              <div className="opacity-0 text-center group-hover:opacity-100 ">
+                <span className="text-l text-white tracking-wider">
+                  Club Sports: <br></br> Hockey - 12 years<br></br>
+                  <br></br> High School Sports: <br></br>Soccer (JV), Football (V), Track
+                  and Field 
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+    
 };
 
 export default Experience;
