@@ -14,22 +14,19 @@ const Experience = () => {
             </p>
           </div>
           <div className="grid h-150 items-center sm:grid-cols-2 md:grid-cols-3 gap-3">
-            <div
-              className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div h-40 relative h-40 overflow-hidden"
-              style={{ cursor: 'pointer' }} 
-            >
-
+            
+            <div className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div h-40 relative h-40 overflow-hidden" style={{ cursor: 'pointer' }}>
               {/* need to fix these 3 components so the original text can go away and interchange when hover is on/off.
                first complete the first one then copy&paste into next 2. */}
 
                {/* Orig Text */}
-              <div className="absolute inset-0 transition-opacity duration-300 opacity-100">
+              <div className="absolute inset-0 transition-opacity duration-300 opacity-100 hover:opacity-0">
                 <span className="flex justify-center items-center h-full font-bold">School</span>
               </div>
               {/* Hover Effects */}
-              <div className="absolute inset-0 transition-opacity duration-300 opacity-0 hover:opacity-100">
+              <div className="opacity-0 absolute inset-0 transition-opacity duration-300 group-hover:opacity-100">
                 <div className="flex justify-center items-center h-full">
-                  <span className="text-white text-lg opacity-100">Hover Text</span>
+                  <span className="text-l text-white tracking-wider">Hover Text</span>
                 </div>
               </div>
             </div>

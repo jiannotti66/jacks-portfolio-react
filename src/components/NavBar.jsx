@@ -2,7 +2,6 @@ import React, { useState, useRef } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Me from "../assets/me.jpg";
 import { Link } from "react-scroll";
-import leetcode from '../assets/leetcode.png'
 
 //add leetcode, github etc on the far left
 
