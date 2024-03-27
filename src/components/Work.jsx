@@ -2,6 +2,7 @@ import React from 'react';
 import traderjoes from '../assets/traderjoes.jpeg'
 import portillos from '../assets/portillos.jpeg'
 import target from '../assets/target.jpeg'
+import referee from '../assets/referee.jpg'
 
 const Work = () => {
 
@@ -22,10 +23,17 @@ const Work = () => {
     },
     {
       company: "Portillos",
-      position: "Cook",
+      position: "Cook/Kitchen",
       duration: "April 2022 - August 2022",
-      description: " - Prepared, wrapped and carried out hot dogs and orders containing hotdogs for in-store and drive through. Helped customers with problems as well as greeting customers",
+      description: " - Prepared, wrapped and carried out hot dogs and orders containing hotdogs for in-store and drive through. Helped customers with problems as well as greeting customers.",
       imageSrc: portillos 
+    },
+    {
+      company: "Amateur Hockey Association Illinois (AHAI)",
+      position: "USA Hockey Certified Referee",
+      duration: "Feb 2021 - October 2023",
+      description: " - Referee for youth hockey games from ages 6-13.",
+      imageSrc: referee 
     },
 
   ];
