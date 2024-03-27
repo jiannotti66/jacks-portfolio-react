@@ -6,6 +6,7 @@ import Skills from './components/Skills.jsx';
 import Work from './components/Work.jsx';
 import Experience from './components/Experience.jsx';
 import Contact from './components/Contact.jsx';
+import Socials from './components/Socials.jsx';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Work/>
       <Experience/>
+      <Socials/>
       <Contact/>
     </div>
   );

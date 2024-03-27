@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Me from "../assets/me.jpg";
 import { Link } from "react-scroll";
+import leetcode from '../assets/leetcode.png'
 
 //add leetcode, github etc on the far left
 
@@ -63,6 +64,14 @@ const Navbar = () => {
             duration={500}
           >
             Experience
+          </Link>
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="socials"
+            smooth={true}
+            duration={500}
+          >
+            Socials
           </Link>
           <Link
             className="p-4 hover:border-b ml-20 cursor-pointer"

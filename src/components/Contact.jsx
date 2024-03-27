@@ -1,97 +1,47 @@
-import React, { useState } from "react";
-
-const FORM_ENDPOINT = "https://herotofu.com/start"; // TODO - update to the correct endpoint
+import React from "react";
 
 const Contact = () => {
-  const [submitted, setSubmitted] = useState(false);
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const inputs = e.target.elements;
-    const data = {};
-
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i].name) {
-        data[inputs[i].name] = inputs[i].value;
-      }
-    }
-
-    fetch(FORM_ENDPOINT, {
-      method: 'POST',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Form response was not ok');
-        }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        // Submit the form manually
-        e.target.submit();
-      });
-  };
-
-  if (submitted) {
-    return (
-      <div className="flex flex-col items-center justify-center h-full">
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
-      </div>
-    );
-  }
-
   return (
-    <form
-      action={FORM_ENDPOINT}
-      onSubmit={handleSubmit}
-      method="POST"
-      className="flex flex-col items-center justify-center h-full"
+    <div
+      name="contact"
+      className=" max-full w-full h-screen pt-60 bg-[#000000] flex-col justify-center  flex items-center p-4"
     >
-      <p className="text-4xl font-bold inline border-b-4 text-[#00df9a] border-gray mb-10">
-              Contact
-            </p>
-      <h1 className="text-gray-400 font-bold mb-10">Submit this form to reach out.</h1>
-      <div id="contact" className="pt-0 mb-3 items-center flex">
+      <form
+        method="POST"
+        action="https://getform.io/f/zbxdonmb"
+        className="flex flex-col max-w-[600px] w-full"
+      >
+        <div className="pb-4">
+          <p className="text-4xl font-bold inline border-b-4 border-[#00df9a] text-gray-300">
+            Contact
+          </p>
+          <p className="text-gray-300 py-4 text-xl">
+            Submit the form below to contact me. 
+          </p>
+        </div>
         <input
+          className="bg-white p-2"
           type="text"
-          placeholder="Your name"
+          placeholder="Name"
           name="name"
-          className="focus:outline-none max-w-80 focus:ring max-w-md relative px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
-          required
         />
-      </div>
-      <div className="pt-0 mb-3">
         <input
-          type="email"
+          className="my-4 p-2 bg-white"
+          type="text"
           placeholder="Email"
           name="email"
-          className="focus:outline-none w-60 focus:ring relative w-full px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
-          required
         />
-      </div>
-      <div className="pt-0 mb-3">
         <textarea
-          placeholder="Your message"
+          className="bg-white p-2"
           name="message"
-          className="focus:outline-none w-96 focus:ring relative max-w-80 px-3 py-3 text-sm text-gray-600 placeholder-gray-400 bg-white border-0 rounded shadow outline-none"
-          required
-        />
-      </div>
-      <div className="pt-0 mb-3">
-        <button
-          className="active:bg-blue-600 hover:shadow-lg max-w-md focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 rounded shadow outline-none flex justify-center"
-          type="submit"
-        >
-          Lets Collaborate
+          rows="6"
+          placeholder="Message"
+        ></textarea>
+        <button className="text-white border-2 hover:bg-[#00df9a] hover:border-[#00df9a] px-4 py-3 my-8 mx-auto items-center">
+          Let's Collaborate
         </button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
 

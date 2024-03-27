@@ -19,11 +19,12 @@ const Experience = () => {
               style={{ cursor: 'pointer' }} 
             >
 
-              {/* need to fix these 3 components so the original text can go away and interchange when hover is on/off */}
+              {/* need to fix these 3 components so the original text can go away and interchange when hover is on/off.
+               first complete the first one then copy&paste into next 2. */}
 
                {/* Orig Text */}
               <div className="absolute inset-0 transition-opacity duration-300 opacity-100">
-                <span className="flex justify-center items-center h-full">Hello.</span>
+                <span className="flex justify-center items-center h-full font-bold">School</span>
               </div>
               {/* Hover Effects */}
               <div className="absolute inset-0 transition-opacity duration-300 opacity-0 hover:opacity-100">
