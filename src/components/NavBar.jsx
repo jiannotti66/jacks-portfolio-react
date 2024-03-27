@@ -93,15 +93,78 @@ const Navbar = () => {
         }
       >
         <h1 className="text-4xl font-bold text-[#00df9a] m-4">
-          Jacks Portfolio
+    
         </h1>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">About</li>
-        <li className="p-4 border-b border-gray-600">Skills</li>
-        <li className="p-4 border-b border-gray-600">Work</li>
-        <li className="p-4 border-b border-gray-600">Experience</li>
-        <li className="p-4 border-b border-gray-600">Contact</li>
-        <li className="p-4 border-b border-gray-600">Contact</li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="home"
+            smooth={true}
+            duration={500}
+          >
+            Home
+          </Link>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="about"
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="skills"
+            smooth={true}
+            duration={500}
+          >
+            Skills
+          </Link>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="work"
+            smooth={true}
+            duration={500}
+          >
+            Work
+          </Link>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="experience"
+            smooth={true}
+            duration={500}
+          >
+            Experience
+          </Link>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="socials"
+            smooth={true}
+            duration={500}
+          >
+            Socials
+          </Link>
+        </li>
+        <li className="p-4 border-b border-gray-600 text-white">
+          <Link
+            className="p-4 hover:border-b cursor-pointer"
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
       <div ref={aboutRef}></div>
     </div>
