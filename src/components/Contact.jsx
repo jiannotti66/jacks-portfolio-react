@@ -12,7 +12,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-4">
-          <p className="text-4xl font-bold inline border-b-4 border-[#00df9a] text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-white text-[#00df9a]">
             Contact
           </p>
           <p className="text-gray-300 py-4 text-xl">
