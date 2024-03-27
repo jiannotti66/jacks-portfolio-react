@@ -65,7 +65,7 @@ const Navbar = () => {
             Experience
           </Link>
           <Link
-            className="p-4 hover:border-b cursor-pointer"
+            className="p-4 hover:border-b ml-20 cursor-pointer"
             to="contact"
             smooth={true}
             duration={500}
