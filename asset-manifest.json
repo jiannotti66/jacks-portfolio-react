@@ -1,22 +1,21 @@
 {
   "files": {
-    "homepage": "https://jiannotti66.github.io/jacks-portfolio-react/"
-    "main.css": "/jacks-portfolio-react/static/css/main.014b85df.css",
-    "main.js": "/jacks-portfolio-react/static/js/main.470a247b.js",
-    "static/media/target.jpeg": "/jacks-portfolio-react/static/media/target.bde0ec1cfe0abb6ddbb0.jpeg",
-    "static/media/me.jpg": "/jacks-portfolio-react/static/media/me.dd381b23ddc07f26ac6f.jpg",
-    "static/media/github.png": "/jacks-portfolio-react/static/media/github.e86ac1f380c4120b7dd1.png",
-    "static/media/referee.jpg": "/jacks-portfolio-react/static/media/referee.76496cb46d74d3079e6a.jpg",
-    "static/media/traderjoes.jpeg": "/jacks-portfolio-react/static/media/traderjoes.f2751cc2cb643f99cb97.jpeg",
-    "static/media/twitter.png": "/jacks-portfolio-react/static/media/twitter.bc2a2973aecd5a6acd25.png",
-    "static/media/leetcode.png": "/jacks-portfolio-react/static/media/leetcode.c79f333b12595d3eec8f.png",
-    "static/media/portillos.jpeg": "/jacks-portfolio-react/static/media/portillos.487beb1cc730fc7f4d81.jpeg",
-    "index.html": "/jacks-portfolio-react/index.html",
-    "main.014b85df.css.map": "/jacks-portfolio-react/static/css/main.014b85df.css.map",
-    "main.470a247b.js.map": "/jacks-portfolio-react/static/js/main.470a247b.js.map"
+    "main.css": "/jackiannotti.com/static/css/main.014b85df.css",
+    "main.js": "/jackiannotti.com/static/js/main.da2e186d.js",
+    "static/media/target.jpeg": "/jackiannotti.com/static/media/target.bde0ec1cfe0abb6ddbb0.jpeg",
+    "static/media/me.jpg": "/jackiannotti.com/static/media/me.dd381b23ddc07f26ac6f.jpg",
+    "static/media/github.png": "/jackiannotti.com/static/media/github.e86ac1f380c4120b7dd1.png",
+    "static/media/referee.jpg": "/jackiannotti.com/static/media/referee.76496cb46d74d3079e6a.jpg",
+    "static/media/traderjoes.jpeg": "/jackiannotti.com/static/media/traderjoes.f2751cc2cb643f99cb97.jpeg",
+    "static/media/twitter.png": "/jackiannotti.com/static/media/twitter.bc2a2973aecd5a6acd25.png",
+    "static/media/leetcode.png": "/jackiannotti.com/static/media/leetcode.c79f333b12595d3eec8f.png",
+    "static/media/portillos.jpeg": "/jackiannotti.com/static/media/portillos.487beb1cc730fc7f4d81.jpeg",
+    "index.html": "/jackiannotti.com/index.html",
+    "main.014b85df.css.map": "/jackiannotti.com/static/css/main.014b85df.css.map",
+    "main.da2e186d.js.map": "/jackiannotti.com/static/js/main.da2e186d.js.map"
   },
   "entrypoints": [
     "static/css/main.014b85df.css",
-    "static/js/main.470a247b.js"
+    "static/js/main.da2e186d.js"
   ]
 }
