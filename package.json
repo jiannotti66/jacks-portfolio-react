@@ -1,5 +1,5 @@
 {
-  "homepage": " http://jiannotti66.github.io/jacks-portfolio-react",
+  "homepage": "http://jiannotti66.github.io/jacks-portfolio-react",
   "name": "jacks-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -46,5 +46,9 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "description": "",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
 }
