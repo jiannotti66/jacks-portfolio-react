@@ -16,7 +16,7 @@ const About = () => {
                         <p>Hi. I'm Jack, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p className='text-xl'>I'm deeply passionate about software engineering, constantly seeking to explore new technologies and expand my skills in the field. Technology has fascinated me since childhood, and now I'm eager to apply that passion to developing software and websites. In my free time, I enjoy staying updated on emerging tech trends and pursuing interests like sports and fitness.</p>
+                        <p className='text-xl'>I'm deeply passionate about software engineering, constantly seeking to explore new technologies and expand my skills in the field. Technology has fascinated me since childhood, and now I'm eager to apply that passion to developing software and websites. In my free time, I enjoy staying updated on emerging tech trends and pursuing other interests such as sports and fitness.</p>
                     </div>
                 </div>
             </div>
