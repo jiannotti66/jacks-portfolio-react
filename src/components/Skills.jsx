@@ -12,7 +12,7 @@ const Skills = () => {
               <li>Java</li>
               <li>JavaScript</li>
               <li>Python</li>
-              <li>HTML</li>
+              <li>Swift</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
@@ -30,7 +30,7 @@ const Skills = () => {
               <li>Visual Studio Code</li>
               <li>IntelliJ</li>
               <li>XCode</li>
-              <li>PyCharm</li>
+              <li>MySQL</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
