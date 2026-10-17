@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbc00302.css",
-    "main.js": "/static/js/main.5c93e9d3.js",
-    "static/media/target.jpeg": "/static/media/target.bde0ec1cfe0abb6ddbb0.jpeg",
-    "static/media/me.jpg": "/static/media/me.dd381b23ddc07f26ac6f.jpg",
+    "main.css": "/static/css/main.c5b7980e.css",
+    "main.js": "/static/js/main.1f0ddd37.js",
+    "static/media/me.jpeg": "/static/media/me.052f489415cb7fd62bf9.jpeg",
     "static/media/github.png": "/static/media/github.e86ac1f380c4120b7dd1.png",
-    "static/media/referee.jpg": "/static/media/referee.76496cb46d74d3079e6a.jpg",
-    "static/media/traderjoes.jpeg": "/static/media/traderjoes.f2751cc2cb643f99cb97.jpeg",
-    "static/media/twitter.png": "/static/media/twitter.bc2a2973aecd5a6acd25.png",
+    "static/media/AHAILogo.png": "/static/media/AHAILogo.da5c54202a87f975b9bb.png",
     "static/media/leetcode.png": "/static/media/leetcode.c79f333b12595d3eec8f.png",
-    "static/media/portillos.jpeg": "/static/media/portillos.487beb1cc730fc7f4d81.jpeg",
+    "static/media/TraderJoesLogo.jpg": "/static/media/TraderJoesLogo.ee9f0e1b7ca5b730bf2b.jpg",
+    "static/media/targetlogo.jpg": "/static/media/targetlogo.7e14f9e92027820b7fff.jpg",
+    "static/media/uiowalogo copy.png": "/static/media/uiowalogo copy.17c8a56965b3760ba5a2.png",
+    "static/media/SPD_Logo.jpeg": "/static/media/SPD_Logo.a890243b14a3e0e30309.jpeg",
+    "static/media/portilloslogo.jpg": "/static/media/portilloslogo.9deacc442628c21bf0bf.jpg",
     "index.html": "/index.html",
-    "main.cbc00302.css.map": "/static/css/main.cbc00302.css.map",
-    "main.5c93e9d3.js.map": "/static/js/main.5c93e9d3.js.map"
+    "main.c5b7980e.css.map": "/static/css/main.c5b7980e.css.map",
+    "main.1f0ddd37.js.map": "/static/js/main.1f0ddd37.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbc00302.css",
-    "static/js/main.5c93e9d3.js"
+    "static/css/main.c5b7980e.css",
+    "static/js/main.1f0ddd37.js"
   ]
 }
