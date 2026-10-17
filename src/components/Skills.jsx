@@ -12,14 +12,14 @@ const Skills = () => {
               <li>Java</li>
               <li>JavaScript</li>
               <li>Python</li>
-              <li>Swift</li>
+              <li>React.js</li>
             </ul>
           </div>
           <div className="p-6 bg-[#141414] rounded-lg">
-            <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Frameworks & Libraries</h3>
+            <h3 className="text-2xl font-serif text-[#00df9a] font-bold mb-4">Business Skills</h3>
             <ul className="list-disc list-inside">
-              <li>React.js</li>
-              <li>Node</li>
+              <li>Excel</li>
+              <li>Statistics</li>
               <li>Git</li>
               {/* add one more. */}
             </ul>

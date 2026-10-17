@@ -1,46 +1,130 @@
 import React from 'react';
 
+const GREEN = '#00df9a';
+
+const involvement = [
+  'Association of Computing Machinery',
+  'Tippie Technology and Innovation Club',
+  'CompSci Kids',
+];
+
+const interests = [
+  'Programming',
+  'Technology',
+  'Data Science',
+  'Fitness',
+  'Brazilian Jiu Jitsu',
+  'Hockey',
+  'Lifting',
+];
+
 const Experience = () => {
   return (
-      <div name="experience" className="min-h-screen bg-[#000000] pt-60 pt-48"> {/* Increase padding to pt-48 */}
-  
-        <div className="max-w-[1000px] text-gray-300 max-h-fit mx-auto p-4 flex flex-col justify-center">
-          <div className="pb-8">
-            <p className="text-4xl font-bold inline border-b-4 text-[#00df9a] border-gray">
-              My Experience
+    <div id="experience" className="bg-black pt-32 pb-20">
+      <style>{`
+        .exp-card {
+          transition: transform 250ms ease, border-color 250ms ease;
+        }
+        .exp-card:hover {
+          transform: translateY(-3px);
+          border-color: rgba(0, 223, 154, 0.5) !important;
+        }
+      `}</style>
+
+      <div className="max-w-[1000px] text-gray-300 mx-auto px-6">
+        {/* Heading */}
+        <div className="text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-white">
+            Experiences and <span style={{ color: GREEN }}>Involvements</span>
+          </h2>
+          <div
+            className="mx-auto mt-4 mb-5"
+            style={{
+              height: 4,
+              width: 80,
+              borderRadius: 2,
+              backgroundImage: 'linear-gradient(to right, #00df9a, #6ee7b7)',
+            }}
+          />
+          <p className="text-lg md:text-xl text-gray-400">
+            Here is a handful of activities I have been involved in
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {/* Summary */}
+          <div
+            className="exp-card rounded-lg p-6"
+            style={{
+              backgroundColor: '#141414',
+              border: '1px solid rgba(255, 255, 255, 0.08)',
+            }}
+          >
+            <p className="text-sm font-semibold tracking-widest mb-3" style={{ color: GREEN }}>
+              EXPERIENCE
             </p>
-            <p className="py-6 text-xl">
-              Explore a handful of my diverse experiences.
+            <p className="text-gray-200 leading-relaxed">
+              Currently, I have work experience in IT Support, Sales Engineering
+              and Groundskeeping with a Business Analytics and Information
+              Systems (BAIS) education background.
             </p>
           </div>
-          <div className="grid h-150 items-center sm:grid-cols-2 md:grid-cols-3 gap-3">
-            
-            <div
-              className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div h-40"
-              style={{ cursor: 'pointer' }}>
-              <span>Currently, I have work experience in the Retail, Education and Sports industries with a computer science focused education background.</span>
-            </div>
 
-            <div
-              className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div h-40"
-              style={{ cursor: 'pointer' }}>
-              <br></br> High School Extracuriculars: <br></br>Finance Club,<br></br>{" "}
-                  Hack Club, CompSci Kids, Math Team, Italian Heritage Club
-            </div>
+          {/* Involvement */}
+          <div
+            className="exp-card rounded-lg p-6"
+            style={{
+              backgroundColor: '#141414',
+              border: '1px solid rgba(255, 255, 255, 0.08)',
+            }}
+          >
+            <p className="text-sm font-semibold tracking-widest mb-3" style={{ color: GREEN }}>
+              INVOLVEMENT
+            </p>
+            <ul className="space-y-2">
+              {involvement.map((item) => (
+                <li key={item} className="flex items-start gap-3 text-gray-200">
+                  <span
+                    className="rounded-full flex-shrink-0"
+                    style={{ width: 8, height: 8, backgroundColor: GREEN, marginTop: 8 }}
+                  />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
 
-            <div
-              className="shadow-lg rounded-lg shadow-[#040c16] bg-[#141414] group container rounder-md flex justify-center items-center mx-auto content-div h-40"
-              style={{ cursor: 'pointer' }}>
-              <br></br> Club Sports: <br></br>Hockey 12 Yrs,<br></br>{" "}
-                 Soccer (JV) 3yrs, Football (V) 1y, Track and Field 1y
-            </div>
-        
-
+          {/* Interests */}
+          <div
+            className="exp-card rounded-lg p-6"
+            style={{
+              backgroundColor: '#141414',
+              border: '1px solid rgba(255, 255, 255, 0.08)',
+            }}
+          >
+            <p className="text-sm font-semibold tracking-widest mb-3" style={{ color: GREEN }}>
+              INTERESTS
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {interests.map((item) => (
+                <span
+                  key={item}
+                  className="rounded-full text-sm px-3 py-1"
+                  style={{
+                    color: GREEN,
+                    backgroundColor: 'rgba(0, 223, 154, 0.08)',
+                    border: '1px solid rgba(0, 223, 154, 0.3)',
+                  }}
+                >
+                  {item}
+                </span>
+              ))}
             </div>
           </div>
         </div>
-    );
-    
+      </div>
+    </div>
+  );
 };
 
 export default Experience;
